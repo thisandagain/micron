@@ -1,6 +1,8 @@
 ## micron
 #### Minimalist extensions to the Node.js core HTTP server.
 
+[![Build Status](https://travis-ci.org/thisandagain/micron.png)](https://travis-ci.org/thisandagain/micron)
+
 Micron is a *tiny* module which provides a few simple extensions to the [Node.js core HTTP API](http://nodejs.org/api/http.html). Most notably, Micron provides an un-buffered middleware pattern modeled after the `function (req, res, next)` convention and basic extensions to the request and response objects.
 
 The goal of Micron is to provide as thin a layer as possible on top of the core HTTP API as to reduce boilerplate for many applications, but without adding bloat or destroying desirable features such as streams as in the case of Connect / Express.
