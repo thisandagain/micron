@@ -1,0 +1,30 @@
+{
+  "name": "micron",
+  "description": "Minimalist extensions to the Node.js core HTTP server.",
+  "version": "0.0.1",
+  "author": "Andrew Sliwinski",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thisandagain/micron"
+  },
+  "keywords": [
+    "utility",
+    "micro",
+    "micron",
+    "small",
+    "http",
+    "extension"
+  ],
+  "dependencies": {
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": {
+    "hint-hint": "~0.4.0",
+    "tap": "~0.4.6"
+  }
+}
